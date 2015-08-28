@@ -27,7 +27,7 @@ package main {
         Title:       "jmoiron.net blog",
         Link:        &feeds.Link{Href: "http://jmoiron.net/blog"},
         Description: "discussion about tech, footie, photos",
-        Author:      &feeds.Author{"Jason Moiron", "jmoiron@jmoiron.net"},
+        Author:      &feeds.Author{Name: "Jason Moiron", Email: "jmoiron@jmoiron.net"},
         Created:     now,
     }
 
@@ -36,7 +36,7 @@ package main {
             Title:       "Limiting Concurrency in Go",
             Link:        &feeds.Link{Href: "http://jmoiron.net/blog/limiting-concurrency-in-go/"},
             Description: "A discussion on controlled parallelism in golang",
-            Author:      &feeds.Author{"Jason Moiron", "jmoiron@jmoiron.net"},
+            Author:      &feeds.Author{Name: "Jason Moiron", Email: "jmoiron@jmoiron.net"},
             Created:     now,
         },
         &feeds.Item{
